@@ -11,6 +11,9 @@
 		79306D0126B43648000D9E6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79306D0026B43648000D9E6C /* ContentView.swift */; };
 		79306D0326B4364B000D9E6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79306D0226B4364B000D9E6C /* Assets.xcassets */; };
 		79306D0626B4364B000D9E6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79306D0526B4364B000D9E6C /* Preview Assets.xcassets */; };
+		79306D1026B44344000D9E6C /* turtlerock@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79306D0F26B44344000D9E6C /* turtlerock@2x.jpg */; };
+		79306D1326B443B1000D9E6C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79306D1226B443B1000D9E6C /* CircleImage.swift */; };
+		79306D1726B44529000D9E6C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79306D1626B44529000D9E6C /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		79306D0226B4364B000D9E6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79306D0526B4364B000D9E6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		79306D0726B4364B000D9E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79306D0F26B44344000D9E6C /* turtlerock@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "turtlerock@2x.jpg"; sourceTree = "<group>"; };
+		79306D1226B443B1000D9E6C /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		79306D1626B44529000D9E6C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +58,12 @@
 		79306CFD26B43648000D9E6C /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				79306D0E26B441F4000D9E6C /* Resources */,
 				79306CFE26B43648000D9E6C /* LandmarksApp.swift */,
 				79306D0026B43648000D9E6C /* ContentView.swift */,
 				79306D0226B4364B000D9E6C /* Assets.xcassets */,
+				79306D1226B443B1000D9E6C /* CircleImage.swift */,
+				79306D1626B44529000D9E6C /* MapView.swift */,
 				79306D0726B4364B000D9E6C /* Info.plist */,
 				79306D0426B4364B000D9E6C /* Preview Content */,
 			);
@@ -67,6 +76,14 @@
 				79306D0526B4364B000D9E6C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		79306D0E26B441F4000D9E6C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				79306D0F26B44344000D9E6C /* turtlerock@2x.jpg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79306D1026B44344000D9E6C /* turtlerock@2x.jpg in Resources */,
 				79306D0626B4364B000D9E6C /* Preview Assets.xcassets in Resources */,
 				79306D0326B4364B000D9E6C /* Assets.xcassets in Resources */,
 			);
@@ -139,7 +157,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				79306D0126B43648000D9E6C /* ContentView.swift in Sources */,
+				79306D1726B44529000D9E6C /* MapView.swift in Sources */,
 				79306CFF26B43648000D9E6C /* LandmarksApp.swift in Sources */,
+				79306D1326B443B1000D9E6C /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
